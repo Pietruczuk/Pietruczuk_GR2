@@ -28,6 +28,8 @@
 \usepackage{color}
 
 
+
+
 %definicje wlasnych komend
 \DeclareMathOperator{\Q}{\mathbb{Q}}
 \DeclareMathOperator{\R}{\mathbb{R}}
@@ -53,7 +55,7 @@
     \textbf{Zadanie 4.7}
 
     \noindent
-    Rozwiązać równanie $2 \leq |4 - x| < 7$
+    Rozwiązać nierówność $2 \leq |4 - x| < 7$
 
     \bigskip
     \noindent
@@ -72,18 +74,18 @@
     jest zapisanych w jednym wyrażeniu równocześnie, dlatego należy rozpatrzyć dwa warunki dla wartości bezwzględnej w tej nierówności:
     \[
         \begin{cases}
-            |4 - x| \geq 2 \\
-            |4 - x| < 7
+            |4 - x| \geq 2, \\
+            |4 - x| < 7.
         \end{cases}
     \]
 
-    \vspace{20pt}                            % dodaje 20 punktów odstępu w pionie
+    \vspace{10pt}                            % dodaje 20 punktów odstępu w pionie
 
     \noindent
     \textbf{Etap 1}
 
     \noindent
-    Rozwiązanie nierówności $2 \leq |4 - x| < 7$ rozpoczynamy od przypomnienia definicji wartości bezwzględnej która mówi,
+    Rozwiązanie nierówności $2 \leq |4 - x| < 7$ rozpoczynamy od przypomnienia definicji wartości bezwzględnej, która mówi,
     że dla wartości bezwzględnej $|a|$ otrzymujemy:
     \[
         |a| = \begin{cases}
@@ -101,7 +103,7 @@
                   -4+x, & \text{gdy } 4-x < 0.
         \end{cases}
     \]
-    stąd uzyskujemy:
+    Stąd uzyskujemy:
 
     \begin{center}                           % Wyśrodkowanie całego bloku poziomo
     \begin{minipage}[c]{0.3\textwidth}       % [c] ustawia wyśrodkowanie pionowe
@@ -123,16 +125,26 @@
     \end{minipage}
     \end{center}
 
-    \vspace{20pt}                            % dodaje 20 punktów odstępu w pionie
+    \vspace{10pt}                            % dodaje 20 punktów odstępu w pionie
 
     \noindent
     \textbf{Etap 2}
-    \emph{ - analiza pierwszego warunku dla wartości bezwzględnej $|4-x|$ gdy $|4 - x| \geq 2$}
+    \emph{ --- analiza pierwszego warunku dla wartości bezwzględnej $|4-x|$ gdy $|4 - x| \geq 2$}
 
     \noindent
     Rozwiązujemy dwa przypadki pierwszego warunku (dla $x \leq 4$ oraz $x > 4$):
-
     \noindent
+    \vspace{10pt}                            % dodaje 20 punktów odstępu w pionie
+
+    \begin{minipage}{0.33\textwidth}
+        \raggedleft
+        {$1^\circ \text{ dla } x \leq 4$}
+    \end{minipage}
+    \hspace{0.23\textwidth}
+    \begin{minipage}{0.31\textwidth}
+        \raggedright
+        {$2^\circ \text{ dla } x > 4$}
+    \end{minipage}
     \begin{center}
     \begin{minipage}{0.2\textwidth}
         \begin{align*}
@@ -177,7 +189,7 @@
     \end{center}
 
     \noindent
-    Ostatecznie otrzymujemy jako rozwiązanie $|4 - x| \geq 2$, że $x \in (-\infty, 2] \cup [6, +\infty)$
+    Ostatecznie otrzymujemy jako rozwiązanie $|4 - x| \geq 2$, że $x \in (-\infty, 2] \cup [6, +\infty)$.
 
     \begin{center}
         \includegraphics[width=0.22\textwidth]{fig_4.jpg}
@@ -187,14 +199,24 @@
 
     \noindent
     \textbf{Etap 3}
-    \emph{ - analiza drugiego warunku dla wartości bezwzględnej $|4-x|$ czyli $|4 - x| < 7$}
+    \emph{ --- analiza drugiego warunku dla wartości bezwzględnej $|4-x|$ czyli $|4 - x| < 7$}
 
     \noindent
     Rozwiązujemy dwa przypadki drugiego warunku (dla $x \leq 4$ oraz $x > 4$):
 
     \noindent
 
-    \noindent
+    \vspace{10pt}                            % dodaje 20 punktów odstępu w pionie
+
+    \begin{minipage}{0.33\textwidth}
+        \raggedleft
+        {$1^\circ \text{ dla } x \leq 4$}
+    \end{minipage}
+    \hspace{0.23\textwidth}
+    \begin{minipage}{0.31\textwidth}
+        \raggedright
+        {$2^\circ \text{ dla } x > 4$}
+    \end{minipage}
     \begin{center}
         \begin{minipage}{0.2\textwidth}
             \begin{align*}
@@ -241,7 +263,7 @@
     \bigskip
 
     \noindent
-    Ostatecznie otrzymujemy jako rozwiązanie $|4 - x| < 7$, przedział $x \in (-3, 11)$
+    Ostatecznie otrzymujemy jako rozwiązanie $|4 - x| < 7$, przedział $(-3, 11)$.
 
     \begin{center}
         \includegraphics[width=0.2\textwidth]{fig_7.jpg}
@@ -251,10 +273,12 @@
 
     \noindent
     \textbf{Etap 4}
-    \emph{ - wyznaczenie części współnej dla obu warunków nierówności $2 \leq |4 - x| < 7$}
+    \emph{ --- wyznaczenie części współnej dla obu warunków nierówności $2 \leq |4 - x| < 7$}
 
     \noindent
-    W celu wyznaczenia części wspólnej obu warunków nierówności $2 \leq |4 - x| < 7$ nanosimy na oś liczbową przedziały otrzymane z rozwiązań nierówności $|4 - x| \geq 2$ oraz $|4 - x| < 7$, czyli odpowiednio $x \in (-\infty, 2] \cup [6, +\infty)$ i $x \in (-3, 11)$. Część wspólna czyli $x \in (-3, 2] \cup [6, 11)$ stanowi rozwiązanie naszej nierówności.
+    W celu wyznaczenia części wspólnej obu warunków nierówności $2 \leq |4 - x| < 7$ nanosimy na oś
+    liczbową otrzymane rozwiązania nierówności $|4 - x| \geq 2$ oraz $|4 - x| < 7$, czyli odpowiednio przedziały
+    $(-\infty, 2] \cup [6, +\infty)$ i $(-3, 11)$. Część wspólna czyli $(-3, 2] \cup [6, 11)$ stanowi rozwiązanie naszej nierówności.
 
     \bigskip
 
@@ -267,12 +291,13 @@
     \emph{\textbf{Odpowiedź:}}
 
     Rozwiązaniem nierówności $2 \leq |4 - x| < 7$ jest:
-    \[x \in (-3, 2] \cup [6, 11)\]
+    \[x \in (-3, 2] \cup [6, 11) \text{.}\]
 
-    \vspace{140pt}                            % dodaje 20 punktów odstępu w pionie
+
+    \vspace{100pt}                            % dodaje 20 punktów odstępu w pionie
     \noindent
     \begin{center}
-    Wszystkie stworzone i wykorzystane w tym projekcie pliki oraz kod dostępne są na GitHub. Wynikowy plik pdf znajduje się w katalogu 'out' repozytorium Pietruczuk\_GR2.
+    Wszystkie stworzone i wykorzystane w tym projekcie pliki oraz kod, zostały uaktualnione i są dostępne na GitHub. Wynikowy plik pdf znajduje się w katalogu 'out' repozytorium Pietruczuk\_GR2.
 
     (https://github.com/Pietruczuk/Pietruczuk\_GR2)
     \end{center}
